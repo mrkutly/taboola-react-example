@@ -11,10 +11,10 @@ export default props => (
     <WidgetContainer>
         <Taboola
             currentUrl={props.currentUrl}
-            publisher={'nbc-today'}
+            publisher={'taboola-training'}
             pageType={'article'}
             placement={'Mid Article Widget'}
-            mode={'thumbnails-feed-4x1'}
+            mode={'thumbnails-2'}
             targetType={'mix'}
         />
     </WidgetContainer>

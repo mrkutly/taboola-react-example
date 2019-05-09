@@ -9,10 +9,10 @@ const IndexPage = () => (
         <h1>Check out these amazing articles</h1>
         <ul>
             <li>
-                <Link to="/page-1/">First Amazing Article</Link>
+                <Link to="/amazing-dogs/">Read about an Amazing Dog</Link>
             </li>
             <li>
-                <Link to="/page-2/">Second Amazing Article</Link>
+                <Link to="/amazing-cats/">Read about an Amazing Cat</Link>
             </li>
         </ul>
     </Layout>

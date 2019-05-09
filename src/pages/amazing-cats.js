@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const SecondPage = () => (
     <Layout>
-        <SEO title="Page two" />
+        <SEO title="Amazing Cats" />
         <Link to="/">Back</Link>
         <h1>Amazing Cat is Amazing</h1>
         <p>
@@ -54,7 +54,9 @@ const SecondPage = () => (
             and eat the fat cats food ears back wide eyed but eat a plant, kill
             a hand and i’m so hungry i’m so hungry but ew not for that .
         </p>
-        <Widget currentUrl={'http://localhost:8000/page-2/'} />
+        <Widget
+            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-cats/'}
+        />
         <p>
             Check cat door for ambush 10 times before coming in litter kitter
             kitty litty little kitten big roar roar feed me thinking longingly
@@ -99,7 +101,7 @@ const SecondPage = () => (
             and eat the fat cats food ears back wide eyed but eat a plant, kill
             a hand and i’m so hungry i’m so hungry but ew not for that .
         </p>
-        <Feed currentUrl={'http://localhost:8000/page-2/'} />
+        <Feed currentUrl={'http://localhost:8000/amazing-cats/'} />
     </Layout>
 )
 

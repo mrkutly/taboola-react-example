@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 
 const FirstPage = () => (
     <Layout>
-        <SEO title="Page one" />
+        <SEO title="Amazing Dogs" />
         <Link to="/">Back</Link>
         <h1>Amazing Dog is Amazing</h1>
         <p>
@@ -80,7 +80,9 @@ const FirstPage = () => (
             me a concern pupper, big ol ur givin me a spook much ruin diet thicc
             clouds porgo. Ruff snoot boofers shibe, bork ur givin me a spook.
         </p>
-        <Widget currentUrl={'http://localhost:8000/page-1/'} />
+        <Widget
+            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-cats/'}
+        />
         <p>
             Doggo ipsum thicc heckin good boys doge heckin angery woofer noodle
             horse, I am bekom fat heckin angery woofer long bois. Doggorino
@@ -105,7 +107,7 @@ const FirstPage = () => (
             me a concern pupper, big ol ur givin me a spook much ruin diet thicc
             clouds porgo. Ruff snoot boofers shibe, bork ur givin me a spook.
         </p>
-        <Feed currentUrl={'http://localhost:8000/page-1/'} />
+        <Feed currentUrl={'http://localhost:8000/amazing-dogs/'} />
     </Layout>
 )
 
