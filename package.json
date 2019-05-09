@@ -3,7 +3,7 @@
     "private": true,
     "description": "Demo of the react taboola plugin",
     "version": "0.1.0",
-    "author": "Mark Sauer-Utley",
+    "author": "Mark Sauer-Utley (@mrkutly)",
     "dependencies": {
         "@mrkutly/taboola-react-plugin": "^1.0.11",
         "gatsby": "^2.4.2",
