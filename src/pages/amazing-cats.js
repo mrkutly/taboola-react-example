@@ -101,7 +101,9 @@ const SecondPage = () => (
             and eat the fat cats food ears back wide eyed but eat a plant, kill
             a hand and i’m so hungry i’m so hungry but ew not for that .
         </p>
-        <Feed currentUrl={'http://localhost:8000/amazing-cats/'} />
+        <Feed
+            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-cats/'}
+        />
     </Layout>
 )
 

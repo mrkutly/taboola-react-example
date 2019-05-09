@@ -81,7 +81,7 @@ const FirstPage = () => (
             clouds porgo. Ruff snoot boofers shibe, bork ur givin me a spook.
         </p>
         <Widget
-            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-cats/'}
+            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-dogs/'}
         />
         <p>
             Doggo ipsum thicc heckin good boys doge heckin angery woofer noodle
@@ -107,7 +107,9 @@ const FirstPage = () => (
             me a concern pupper, big ol ur givin me a spook much ruin diet thicc
             clouds porgo. Ruff snoot boofers shibe, bork ur givin me a spook.
         </p>
-        <Feed currentUrl={'http://localhost:8000/amazing-dogs/'} />
+        <Feed
+            currentUrl={'https://taboola-react-app.herokuapp.com/amazing-dogs/'}
+        />
     </Layout>
 )
 

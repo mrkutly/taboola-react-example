@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "author": "Mark Sauer-Utley",
     "dependencies": {
-        "@mrkutly/taboola-react-plugin": "^1.0.10",
+        "@mrkutly/taboola-react-plugin": "^1.0.11",
         "gatsby": "^2.4.2",
         "gatsby-image": "^2.0.41",
         "gatsby-plugin-manifest": "^2.1.1",
