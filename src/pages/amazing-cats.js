@@ -4,11 +4,12 @@ import Widget from '../components/widget'
 import Feed from '../components/feed'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import StyledLink from '../components/styles/StyledLink'
 
 const SecondPage = () => (
     <Layout>
         <SEO title="Amazing Cats" />
-        <Link to="/">Back</Link>
+        <Link to="/">Back to Home</Link>
         <h1>Amazing Cat is Amazing</h1>
         <p>
             Check cat door for ambush 10 times before coming in litter kitter
@@ -101,6 +102,7 @@ const SecondPage = () => (
             and eat the fat cats food ears back wide eyed but eat a plant, kill
             a hand and i’m so hungry i’m so hungry but ew not for that .
         </p>
+        <StyledLink to="/amazing-dogs/">Read next article >>></StyledLink>
         <Feed
             currentUrl={'https://taboola-react-app.herokuapp.com/amazing-cats/'}
         />

@@ -4,11 +4,12 @@ import Feed from '../components/feed'
 import Widget from '../components/widget'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import StyledLink from '../components/styles/StyledLink'
 
 const FirstPage = () => (
     <Layout>
         <SEO title="Amazing Dogs" />
-        <Link to="/">Back</Link>
+        <Link to="/">Back to Home</Link>
         <h1>Amazing Dog is Amazing</h1>
         <p>
             Doggo ipsum thicc heckin good boys doge heckin angery woofer noodle
@@ -107,6 +108,7 @@ const FirstPage = () => (
             me a concern pupper, big ol ur givin me a spook much ruin diet thicc
             clouds porgo. Ruff snoot boofers shibe, bork ur givin me a spook.
         </p>
+        <StyledLink to="/amazing-cats/">Read next article >>></StyledLink>
         <Feed
             currentUrl={'https://taboola-react-app.herokuapp.com/amazing-dogs/'}
         />
