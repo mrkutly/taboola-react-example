@@ -5,11 +5,10 @@ import styled from 'styled-components'
 
 const HeaderStyles = styled.header`
     background: #144c92;
-    marginbottom: 1.45em;
 `
 
 const Container = styled.div`
-    margin: 0 auto;
+    margin: 0 auto 1.45em;
     max-width: 960px;
     padding: 1.45rem 1.0875rem;
 `
@@ -25,6 +24,10 @@ const Header = ({ siteTitle }) => (
             <h1 style={{ margin: 0 }}>
                 <LinkStyles to="/">{siteTitle}</LinkStyles>
             </h1>
+            <p style={{ color: 'white' }}>
+                NOTE: these widgets and feeds are connected to the Taboola
+                Training account and will only work from the Taboola VPN
+            </p>
         </Container>
     </HeaderStyles>
 )

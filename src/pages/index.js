@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
     <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <h1>Check out these amazing articles</h1>
+        <h1>Click these links to see the Taboola React Plugin in action!</h1>
         <ul>
             <li>
                 <Link to="/amazing-dogs/">Read about an Amazing Dog</Link>
