@@ -2,6 +2,9 @@
     "name": "taboola-react-example",
     "private": true,
     "description": "Demo of the react taboola plugin",
+    "engines": {
+        "node": "10.15.3"
+    },
     "version": "0.2.0",
     "author": "Mark Sauer-Utley (@mrkutly)",
     "dependencies": {
