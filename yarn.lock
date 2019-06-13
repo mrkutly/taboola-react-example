@@ -801,10 +801,10 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@mrkutly/taboola-react-plugin@^1.0.16":
-  version "1.0.16"
-  resolved "https://registry.yarnpkg.com/@mrkutly/taboola-react-plugin/-/taboola-react-plugin-1.0.16.tgz#b8c16d0214e8310fbd2cf1ccf70de3dc9f97e955"
-  integrity sha512-Uz8oToJnhfOcoUJvMmmnYkhEzpOjCabcFMrzBkK7I1s+Y08bXqYQyNiYX0GJbskhgAkOTCiZAkgYQ2AwPa2Jvw==
+"@mrkutly/taboola-react-plugin@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@mrkutly/taboola-react-plugin/-/taboola-react-plugin-1.1.0.tgz#ccc2ea6ef8b675a960c4b04d4c2cc24cd9f88f66"
+  integrity sha512-D/vEPMsl8PojJK7bXP+vAs8kt5QCEg8J1PUAuPSTK0oMoFzczGg2LgOVGhOVkxQtOG2HfoxUMRdFqwrLgz27DA==
   dependencies:
     prop-types "^15.7.2"
     react "^16.8.6"
