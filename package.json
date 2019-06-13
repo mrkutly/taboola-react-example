@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "author": "Mark Sauer-Utley (@mrkutly)",
     "dependencies": {
-        "@mrkutly/taboola-react-plugin": "^1.0.13",
+        "@mrkutly/taboola-react-plugin": "^1.0.16",
         "gatsby": "^2.4.2",
         "gatsby-image": "^2.0.41",
         "gatsby-plugin-manifest": "^2.1.1",
@@ -29,7 +29,7 @@
     "license": "MIT",
     "scripts": {
         "build": "gatsby build",
-        "develop": "gatsby develop",
+        "dev": "gatsby develop",
         "format": "prettier --write src/**/*.{js,jsx}",
         "start": "npm run develop",
         "serve": "gatsby serve",
